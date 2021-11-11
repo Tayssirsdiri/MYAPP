@@ -1,4 +1,5 @@
--hosts: localhost
+ ---
+ -hosts: localhost
  grather_facts: true
  become: true
  roles:
