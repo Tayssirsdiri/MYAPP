@@ -1,6 +1,5 @@
----
-       -hosts: localhost
-        grather_facts: true
-        become: true
-        roles:
-          - { role:build }
+-hosts: localhost
+ grather_facts: true
+ become: true
+ roles:
+     - { role:build }
