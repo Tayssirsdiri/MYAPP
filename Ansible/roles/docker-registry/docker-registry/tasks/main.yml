@@ -9,8 +9,7 @@
 - name: Tag and push to dockerhub
   community.docker.docker_image:
      name: devops:latest
-     image: devops: latest
-     repository: tayssirsdiri/projetcd
+     repository: tayssirsdiri/projetcd1.2
      push: yes
      source: local
 

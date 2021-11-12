@@ -9,15 +9,15 @@
 
     build:
 
-      path: /var/lib/jenkins/workspace/devops
+      path: /var/lib/jenkins/workspace/pipeline
 
       pull: no
 
-     source: build
+      source: build
 
-     state: present
+      state: present
 
-     force_source: true
+      force_source: true
 
 - name: run container docker
 
@@ -25,7 +25,7 @@
 
      name: myapp_container
 
-     image: devops: latest
+     image: devops:latest
 
      recreate: true
 
