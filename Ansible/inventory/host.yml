@@ -2,7 +2,7 @@ localhost ansible_connection=local
 
 [server]
 
-localhost  ansible_user=tayssir   ansible_become_pass=esprit2022
+localhost  
 
 
 [server:vars]
