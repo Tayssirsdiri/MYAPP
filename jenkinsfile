@@ -12,6 +12,7 @@ pipeline {
             }
         }
 
+<<<<<<< HEAD
         stage('Build') {
              steps{
                 script{
@@ -19,5 +20,30 @@ pipeline {
                 }
             }
         }
+=======
+
+ stage ('docker') 
+{           
+           steps{
+                script{
+                sh "ansible-playbook Ansible/docker.yml -i Ansible/inventory/host.yml "
+                     }
+                  }
+
+              }
+
+stage ('docker-push') 
+{           
+           steps{
+                script{
+                sh " ansible-playbook Ansible/docker-registry.yml -i Ansible/inventory/host.yml "
+                     }
+                  }
+
+              }
+        
+>>>>>>> a1cc3f65f4bf8685f2f7cf40de39b979f59aea51
         }
         }
+
+

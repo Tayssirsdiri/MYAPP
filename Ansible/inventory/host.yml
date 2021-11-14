@@ -4,5 +4,10 @@ localhost ansible_connection=local
 localhost    ansible_user=tayssir   ansible_become_pass=esprit2022
 
 [Server:vars]
+<<<<<<< HEAD
 ansible_python_interpreter= /usr/bin/python3
 ansi_user= tayssir
+=======
+ansible_python_interpreter=/usr/bin/python3
+ansi_user=tayssir
+>>>>>>> a1cc3f65f4bf8685f2f7cf40de39b979f59aea51
