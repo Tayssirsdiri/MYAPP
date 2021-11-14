@@ -7,9 +7,4 @@
        - { role: build }
 
 
-    - hosts: localhost
-      gather_facts: true
-      become: true
-      roles:
-       - { role: build }
-
+  
