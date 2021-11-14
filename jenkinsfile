@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-<<<<<<< HEAD
+
         stage('Build') {
              steps{
                 script{
@@ -20,7 +20,7 @@ pipeline {
                 }
             }
         }
-=======
+
 
  stage ('docker') 
 {           
@@ -42,7 +42,7 @@ stage ('docker-push')
 
               }
         
->>>>>>> a1cc3f65f4bf8685f2f7cf40de39b979f59aea51
+
         }
         }
 
